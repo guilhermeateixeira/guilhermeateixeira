@@ -16,7 +16,7 @@ I spent six years in data at **PastBook**, **Tesla** and **Just Eat Takeaway**, 
 
 ### Mise · print-on-demand cookbook platform
 
-<img alt="Three Mise cookbook covers: The Weeknight Table, The Ferrara Kitchen, and Flour, Fire &amp; Salt" src="assets/mise.jpg" width="100%">
+<img alt="Three Mise cookbook covers: The Weeknight Table, The Ferrara Kitchen, and Flour, Fire &amp; Salt" src="assets/mise-covers.jpg" width="100%">
 
 Families turn their recipe collections into a professionally printed hardcover cookbook. They can paste text, paste a link or photograph a handwritten card.
 
