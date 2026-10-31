@@ -39,7 +39,27 @@ K-Signal scores SEC 8-K filings and press releases as trading signals the moment
 - **Go, Rust and Python** services on NATS JetStream, Redpanda, Redis and ClickHouse
 - **Fast path, then an LLM check:** Rust keyword classifiers score each event first, and a Claude check runs beside them so the LLM never slows trading down
 - **Built to run unattended:** self-healing watchdogs, a kill switch, TOTP-gated access and a written security audit
-- **Flutter** mobile app and **Tauri** desktop terminal
+- **Flutter** mobile app and the **Edgevolt** desktop terminal (below)
+
+### Edgevolt · desktop trading terminal
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/edgevolt-dark.svg">
+  <img alt="Edgevolt terminal layout: gap scanner and squeeze board on the left, an arm-gated order panel and three charts in the centre, news catalysts and the bot's live decisions on the right, and a paper/live switch in the status bar" src="assets/edgevolt-light.svg" width="100%">
+</picture>
+
+Edgevolt is a desktop terminal for fast manual day trading on top of K-Signal. It brings scanners, market depth, news and order entry into one window, on a screen where a single wrong click can cost real money. *The image above is a layout schematic, not live data.*
+
+- **Tauri v2, React 19 and TypeScript**, with a Rust core. The app is small and light enough to stay open all day.
+- **Real-time panels:** gap and squeeze scanners that re-rank every 5 seconds, a Level 2 depth ladder, press-release catalysts that fade as they age, a day-replay view for reviewing past alerts and trades, and a live feed of the trading bot's decisions.
+- **Order flow designed for safety:**
+  - There is exactly one order form, and it must be armed first: Space arms it, Space again sends, Esc disarms.
+  - Switching between paper and live trading needs a confirmation that names the account.
+  - Alerts are placed so they can never pop up under the cursor and catch a click.
+  - Leaderboard numbers update on every tick, but rows never re-sort under your cursor.
+- **A client, not a second system:** it reads the same live feeds as the mobile app, and every order goes through the trading core's risk checks, never straight to the broker.
+
+`115 commits in 4 weeks` · `28 UI components` · `42 test files`
 
 ### Director-Agents · how I build
 
