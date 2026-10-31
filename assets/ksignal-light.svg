@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#59636E"/></marker></defs>
+<rect x="1" y="1" width="1198" height="458" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="30" y="44" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636E" letter-spacing="0.04em">SOURCES</text>
+<text x="290" y="44" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636E" letter-spacing="0.04em">CLASSIFY</text>
+<text x="560" y="44" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636E" letter-spacing="0.04em">STREAM</text>
+<text x="770" y="44" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636E" letter-spacing="0.04em">DECIDE</text>
+<text x="1010" y="44" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636E" letter-spacing="0.04em">ACT &amp; SHOW</text>
+<rect x="30" y="70" width="200" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="130" y="99" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">SEC 8-K filings</text>
+<text x="130" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >EDGAR feed</text>
+<rect x="30" y="170" width="200" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="130" y="199" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Press releases</text>
+<text x="130" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >newswires</text>
+<rect x="30" y="270" width="200" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="130" y="299" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Market data</text>
+<text x="130" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >Level 2 via IB</text>
+<rect x="290" y="70" width="210" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="395" y="99" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Rust 8-K classifier</text>
+<text x="395" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >Aho-Corasick scoring</text>
+<rect x="290" y="170" width="210" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="395" y="199" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Rust PR classifier</text>
+<text x="395" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >keywords + rules</text>
+<rect x="290" y="270" width="210" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="395" y="299" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Python L2 bridge</text>
+<text x="395" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >+ Rust candles</text>
+<rect x="560" y="70" width="150" height="264" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="635" y="199" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Event bus</text>
+<text x="635" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >NATS · Redpanda</text>
+<rect x="770" y="70" width="200" height="64" rx="8" fill="#E6EBFC" stroke="#2547D0" stroke-width="1.5"/>
+<text x="870" y="99" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Claude check</text>
+<text x="870" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >off the hot path</text>
+<rect x="770" y="170" width="200" height="64" rx="8" fill="#2547D0" stroke="#2547D0" stroke-width="1.5"/>
+<text x="870" y="199" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Go trading-core</text>
+<text x="870" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#FFFFFF" opacity="0.85">risk · orders · kill switch</text>
+<rect x="770" y="270" width="200" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="870" y="299" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Python bot engine</text>
+<text x="870" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >nightly self-tuning</text>
+<rect x="1010" y="70" width="170" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="1095" y="99" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">IB Gateway</text>
+<text x="1095" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >order execution</text>
+<rect x="1010" y="170" width="170" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="1095" y="199" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Go API gateway</text>
+<text x="1095" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >TOTP-gated</text>
+<rect x="1010" y="270" width="170" height="64" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="1095" y="299" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">Flutter + Tauri</text>
+<text x="1095" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#59636E" >mobile &amp; desktop</text>
+<rect x="290" y="366" width="680" height="44" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="630" y="393" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1F2328">ClickHouse · Redis · Grafana</text>
+
+<line x1="230" y1="102" x2="288" y2="102" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="500" y1="102" x2="558" y2="102" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="710" y1="102" x2="768" y2="102" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="230" y1="202" x2="288" y2="202" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="500" y1="202" x2="558" y2="202" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="710" y1="202" x2="768" y2="202" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="230" y1="302" x2="288" y2="302" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="500" y1="302" x2="558" y2="302" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="710" y1="302" x2="768" y2="302" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="870" y1="134" x2="870" y2="168" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="870" y1="270" x2="870" y2="236" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="970" y1="190" x2="1008" y2="112" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="970" y1="202" x2="1008" y2="202" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="1095" y1="234" x2="1095" y2="268" stroke="#59636E" stroke-width="1.5"  marker-end="url(#arr)"/>
+<line x1="635" y1="334" x2="635" y2="364" stroke="#59636E" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arr)"/>
+<text x="600" y="444" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#59636E" letter-spacing="0.04em">~20 systemd services · self-healing watchdogs · security audited · runs 24/7</text>
+</svg>
